@@ -49,7 +49,7 @@ include $(LOCAL_PATH)/fmhalService/Android.mk
 
 #endif # is-vendor-board-platform
 #endif # Not (TARGET_USES_AOSP)
-LOCAL_PATH := $(LOCAL_DIR_PATH)
-include $(LOCAL_PATH)/libfm_jni/Android.mk
+#LOCAL_PATH := $(LOCAL_DIR_PATH)
+#include $(LOCAL_PATH)/libfm_jni/Android.mk
 
 endif # BOARD_HAVE_QCOM_FM
